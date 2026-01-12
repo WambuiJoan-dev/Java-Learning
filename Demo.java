@@ -1,11 +1,12 @@
 public class Demo {
     public static void main(String[] args){
-        int x = 5;
-        int y = 7;
+        int x = 8;
+        int y = 17;
+        int z = 6;
 
-        if (x > y)
+        if (x > y && x > z)
             System.out.println(x);
-        else
+        else if  (y>x && y>z)
             System.out.println(y);
     }
 }
