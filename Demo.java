@@ -1,12 +1,18 @@
-public class Demo {
-    public static void main(String[] args){
-        int x = 8;
-        int y = 17;
-        int z = 6;
+public class Demo
+{
+    public static void main(String a[])
+    {
+        int n = 1;
 
-        if (x > y && x > z)
-            System.out.println(x);
-        else if  (y>x && y>z)
-            System.out.println(y);
+        if (n ==1)
+            System.out.println("Monday");
+        else if (n==2)
+            System.out.println("Monday";);
+        System.out.println("Sunday");
+        System.out.println("Monday");
+        System.out.println("Tuesday");
+        System.out.println("Wednesday");
+        System.out.println("Thursday");
+        System.out.println("Friday");
     }
 }
