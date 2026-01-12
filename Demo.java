@@ -1,12 +1,11 @@
 public class Demo {
     public static void main(String[] args){
-        int x = 7;
-        int y = 5;
-        int a = 5;
-        int b = 9;
+        int x = 5;
+        int y = 7;
 
-        boolean result = a > b;
-
-        System.out.println(!result);
+        if (x > y)
+            System.out.println(x);
+        else
+            System.out.println(y);
     }
 }
