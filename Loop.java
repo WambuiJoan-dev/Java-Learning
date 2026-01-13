@@ -11,5 +11,6 @@ public class Loop {
         
             i++;
         }
+        System.out.println("Bye" + 1);
     }
 }
