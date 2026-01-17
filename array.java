@@ -33,10 +33,12 @@ public static void main ( String a[]) {
     students[1] = s2;
     students[2] = s3;
 
-    for (int i=0; i<students.length; i++)
-    {
-        System.out.println(students[i].name + " : " + students[i].marks + " : " + students[i].rollno);
-    }
+    for ( Student stud : students) // enhanced forloop
+    {System.out.println(stud.name + " : " + stud.marks);}
+    // for (int i=0; i<students.length; i++)
+    // {
+    //     System.out.println(students[i].name + " : " + students[i].marks + " : " + students[i].rollno);
+    // }
 
     // {int nums[] = new int[4];
     //     nums[0] = 4;
