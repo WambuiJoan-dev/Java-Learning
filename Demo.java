@@ -1,7 +1,22 @@
+class Human
+{
+    private int age;
+    private String name;
+
+}
+
 public class Demo
 {
+
     public static void main(String a[])
     {
+
+        Human obj = new Human();
+        obj.age = 11;
+        obj.name = "Joan";
+
+        System.out.println(obj.name);
+
         // int n = 1;
 
         // if (n ==1)
@@ -24,9 +39,9 @@ public class Demo
         // String s2 = "Jane";
         // System.out.println(s1 == s2);
 
-        StringBuffer sb = new StringBuffer("Joan");
-        sb.append(" Wambui");
-        System.out.println(sb);
+        // StringBuffer sb = new StringBuffer("Joan");
+        // sb.append(" Wambui");
+        // System.out.println(sb);
 
         
 
