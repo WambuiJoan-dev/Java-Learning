@@ -16,9 +16,18 @@ public class Demo
         // System.out.println("Friday");
 
         // String name  = new String("Joan");
-        String name = "Joan";
-        System.out.println("hello" + "," + name);
-        //System.out.println(name.charAt(1));
+        // String name = "Joan";
+        // name  =  name + " Wambui";
+        // System.out.println("hello" + "," + name);
+
+        // String s1 = "Jane";
+        // String s2 = "Jane";
+        // System.out.println(s1 == s2);
+
+        StringBuffer sb = new StringBuffer("Joan");
+        sb.append(" Wambui");
+        System.out.println(sb);
+
         
 
 
