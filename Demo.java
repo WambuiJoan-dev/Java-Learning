@@ -1,7 +1,20 @@
 class Human
 {
-    private int age;
-    private String name;
+    private int age ;
+    private String name ;
+    
+    public int getAge()
+    {return age;}
+
+    public void setAge(int a)
+    {age = a;}
+
+
+    public String getName()
+    {return name;}
+
+    public void setName(String n)
+    {name= n;}
 
 }
 
@@ -12,10 +25,12 @@ public class Demo
     {
 
         Human obj = new Human();
-        obj.age = 11;
-        obj.name = "Joan";
+        obj.setAge(0);
 
-        System.out.println(obj.name);
+
+        obj.setName("Jane");
+
+        System.out.println(obj.getName() + " : " + obj.getAge());
 
         // int n = 1;
 
