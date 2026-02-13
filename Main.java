@@ -1,8 +1,9 @@
 public class Main {
-    int x = 5;
-
+    int x=10 ;
+//overriding existing values
     public static void main(String[] args) {
         Main myObj = new Main();
+        myObj.x = 25;
         System.out.println(myObj.x);
     }
 }
