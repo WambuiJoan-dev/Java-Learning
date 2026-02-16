@@ -1,14 +1,14 @@
 public class Main {
-  public static int sum(int k) {
-    if (k > 0) {
-      return k + sum(k - 1);
-    } else {
-      return 0;
-    }
-  }
 
-  public static void main(String[] args) {
-    int result = sum(10);
-    System.out.println(result);
-  }
+    public void fullThrottle() {
+        System.out.println("The car is going fast!");
+    }
+    public void speed(int maxSpeed) {
+        System.out.println("Max speed is: " + maxSpeed);
+    }
+    public static void main(String[] args) {
+        Main myCar = new Main();
+        myCar.fullThrottle();
+        myCar.speed(200);
+    }
 }
