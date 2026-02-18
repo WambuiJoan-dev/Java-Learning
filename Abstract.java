@@ -1,10 +1,17 @@
-public String fname = "Joan";
-public int age = 24;
-public abstract void study();
+abstract class Animal {
+    abstract void makeSound();
+}
 
-class Student extends Main {
-    public int graduationYear = 2024;
-    public void study() {
-        System.out.println("...");
+class Dog extends Animal{
+    void makeSound(){
+        System.out.println("Bark");
+    }
+}
+
+
+public class Abstract {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.makeSound();
     }
 }
