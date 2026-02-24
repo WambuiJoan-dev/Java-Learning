@@ -1,11 +1,11 @@
-class vehicle {
+class Vehicle {
     protected String brand = "Ford"; //vehicle attribute
     public void honk() {            //vehicle method
         System.out.println("Tuut, tuut!");
     }
 }
 
-class Car extends vehicle {
+class Car extends Vehicle {
     private String modelName = "Mustang";
     public static void main(String[] args){
         //create a myCar object
